@@ -27,6 +27,10 @@ Built using Python, Streamlit, SQLite, Ollama, and Large Language Models (LLMs).
 - DeepSeek / Qwen / Llama Models
 
 ---
+# 📸Screenshot
+
+<img width="1027" height="452" alt="Screenshot 2026-05-07 at 23 17 48" src="https://github.com/user-attachments/assets/0eb2d44f-8a83-47a6-a71c-6a491cebf642" />
+
 
 # 📂 Project Structure
 
