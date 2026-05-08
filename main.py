@@ -36,8 +36,7 @@ def text_to_sql(schema, prompt):
         ("user", "Schema:\n{schema}\n\nQuestion: {user_prompt}\n\nSQL Query:")
     ])
 
-    model = OllamaLLM(model="deepseek-r1:8b", temperature=0) #Use any other model if you want
-
+    model = OllamaLLM(model="deepseek-r1:8b", temperature=0) 
     chain = prompt_template | model
 
     raw_response = chain.invoke({"schema": schema, "user_prompt": prompt})
